@@ -8,6 +8,5 @@ module.exports = function countCats(catsMatrix) {
       if (catsMatrix[i][j] === '^^') {cats++;}
     }
   }
-  console.log(cats);
   return cats;
 };
